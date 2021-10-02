@@ -19,7 +19,7 @@ const configFactory = (_, argv) => {
       filename: "[name].js",
       chunkFilename: "[name].bundle.js",
     },
-    target: "web",
+    target: ["web", "es6"],
     module: {
       rules: [
         {
